@@ -23,4 +23,10 @@ public class Rectangle {
         System.out.println("Area: " + getArea());
         System.out.println("Perimeter: " + getPerimeter());
     }
+    public void setLength(int l) {
+        length = l;
+    }
+    public void setWidth(int w) {
+        width = w;
+    }
 }
