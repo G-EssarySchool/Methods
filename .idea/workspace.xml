@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d637c31e-dbd9-41a0-8818-7f17203799d1" name="Changes" comment="Task 1 complete" />
+    <list default="true" id="d637c31e-dbd9-41a0-8818-7f17203799d1" name="Changes" comment="Task 2 complete">
+      <change afterPath="$PROJECT_DIR$/src/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +50,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Task1.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task5.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -76,12 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1762262464935</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task 2 complete">
+      <option name="closed" value="true" />
+      <created>1762262950040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762262950040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="67" />
     <MESSAGE value="Task 1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 complete" />
+    <MESSAGE value="Task 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 complete" />
   </component>
 </project>
