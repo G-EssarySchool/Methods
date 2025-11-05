@@ -78,7 +78,7 @@ public class InputHelper {
         return userInput;
     }
     //getRangedDouble method: This method should return a valid double to the user within a given range.
-    public static double getRangedDouble(Scanner scan, String prompt, int min, int max) {
+    public static double getRangedDouble(Scanner scan, String prompt, double min, double max) {
         boolean valid = false;
         double userInput = 0;
 
