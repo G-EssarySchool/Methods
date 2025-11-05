@@ -160,7 +160,7 @@ public class InputHelper {
             }
             else {
                 System.out.println("Error - must match specified pattern");
-                scan.nextLine();
+                //scan.nextLine();
             }
         } while (!valid);
         return userInput;
