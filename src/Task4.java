@@ -4,13 +4,14 @@ public class Task4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double total = 0;
-        boolean moreItems;
+        String moreItems;
 
         do {
             double price = InputHelper.getRangedDouble(scan, "Enter item price ($0.50 - $9.99): ", 0.50, 9.99);
             total += price;
-            moreItems = Boolean.parseBoolean(InputHelper.getYNConfirm(scan, "Do you have more items? [Y/N]: "));
-        } while (moreItems);
+            scan.nextLine();
+            moreItems = InputHelper.getYNConfirm(scan, "Do you have more items? [Y/N]: "));
+        } while (moreItems.equalIgnoreCase("y");
 
         System.out.printf("%nTotal cost of your items: $%.2f%n", total);
     }
