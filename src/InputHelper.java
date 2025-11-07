@@ -110,22 +110,17 @@ public class InputHelper {
         System.out.println("Continue? [Y , N]");
 
         do {
-            if (scan.hasNextLine()) {
-                userInput = scan.nextLine();
-                if (userInput.equalsIgnoreCase("y")) {
-                    continueYN = true;
-                    validContinueChoice = true;
-                }
-                else if (userInput.equalsIgnoreCase("n")) {
-                    continueYN = false;
-                    validContinueChoice = true;
-                }
-                else {
-                    System.out.println("Invalid input. Please try again");
-                }
+            userInput = scan.nextLine();
+            if (userInput.equalsIgnoreCase("y")) {
+                continueYN = true;
+                validContinueChoice = true;
+            }
+            else if (userInput.equalsIgnoreCase("n")) {
+                continueYN = false;
+                validContinueChoice = true;
             }
             else {
-                System.out.println("Invalid input. Please try again.");
+                System.out.println("Invalid input. Please try again");
             }
         } while (!validContinueChoice);
         return userInput;
